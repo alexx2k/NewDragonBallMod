@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dragon_ball:block/planet_namek_portal_ew"
+    },
+    "axis=x": {
+      "model": "dragon_ball:block/planet_namek_portal_ns"
+    }
+  }
+}

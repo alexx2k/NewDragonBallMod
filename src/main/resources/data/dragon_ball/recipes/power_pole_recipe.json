@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " ab",
+    "aba",
+    "ba "
+  ],
+  "key": {
+    "a": {
+      "item": "dragon_ball:raw_ki_energy"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dragon_ball:power_pole",
+    "count": 1
+  }
+}

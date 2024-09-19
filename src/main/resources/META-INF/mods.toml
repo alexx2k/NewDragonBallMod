@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Not specified"
+
+[[mods]]
+modId="dragon_ball"
+version="1.0.0"
+displayName="Dragon Ball"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/dragon-ball-mod/"
+logoFile="logo.png"
+credits="alex"
+authors="alex"
+description="Adds features from the Dragon Ball universe to minecraft!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.dragon_ball]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

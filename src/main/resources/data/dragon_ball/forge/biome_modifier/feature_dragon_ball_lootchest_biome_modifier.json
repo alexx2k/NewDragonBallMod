@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "dragon_ball:feature_dragon_ball_lootchest",
+  "step": "surface_structures"
+}

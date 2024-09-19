@@ -1,0 +1,78 @@
+{
+  "_fv": 66,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "greenscouterguiblockbig.png",
+          "use1Xscale": false,
+          "anchorPoint": "CENTER_LEFT",
+          "x": -51,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_entity_information",
+          "text": {
+            "fixedValue": "Entity Info"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER_LEFT",
+          "x": 9,
+          "y": 56
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "GetEntityLookingAt"
+          },
+          "scale": 40,
+          "rotationX": 0,
+          "followMouseMovement": false,
+          "anchorPoint": "CENTER_LEFT",
+          "x": 27,
+          "y": 141
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "",
+            "name": "GetMaxHealthLookingAt"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "anchorPoint": "CENTER_LEFT",
+          "x": 9,
+          "y": 167
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "IsWearingGreenScouter"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

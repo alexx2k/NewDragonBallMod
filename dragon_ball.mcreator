@@ -1,0 +1,2683 @@
+{
+  "mod_elements": [
+    {
+      "name": "DragonBallTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DragonBallLootchestOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_lootchest_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/DragonBallLootchestOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "DragonBallLootchest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_lootchest",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/block/dragon_ball_lootchest.json",
+          "src/main/resources/assets/dragon_ball/models/item/dragon_ball_lootchest.json",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/dragon_ball_lootchest.json",
+          "src/main/resources/assets/dragon_ball/blockstates/dragon_ball_lootchest.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/DragonBallLootchestBlock.java"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "GokusPouch",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gokus_pouch_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/network/GokusPouchButtonMessage.java",
+          "src/main/java/com/alexbalsillie/dragonball/world/inventory/GokusPouchMenu.java",
+          "src/main/java/com/alexbalsillie/dragonball/client/gui/GokusPouchScreen.java"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "GokusPouchItemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gokus_pouch_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/GokusPouchItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "GokusPouchItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gokus_pouch_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/item/gokus_pouch_item.json",
+          "src/main/java/com/alexbalsillie/dragonball/item/GokusPouchItemItem.java",
+          "src/main/java/com/alexbalsillie/dragonball/item/inventory/GokusPouchItemInventoryCapability.java"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "DragonBall1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_1",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/item/DragonBall1Item.java",
+          "src/main/resources/assets/dragon_ball/models/item/dragon_ball_1.json"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "DragonBall2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/item/dragon_ball_2.json",
+          "src/main/java/com/alexbalsillie/dragonball/item/DragonBall2Item.java"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "DragonBall3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_3",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/item/DragonBall3Item.java",
+          "src/main/resources/assets/dragon_ball/models/item/dragon_ball_3.json"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "DragonBall4",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_4",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/item/DragonBall4Item.java",
+          "src/main/resources/assets/dragon_ball/models/item/dragon_ball_4.json"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "DragonBall5",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/item/dragon_ball_5.json",
+          "src/main/java/com/alexbalsillie/dragonball/item/DragonBall5Item.java"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "DragonBall6",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/item/dragon_ball_6.json",
+          "src/main/java/com/alexbalsillie/dragonball/item/DragonBall6Item.java"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "DragonBall7",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_ball_7",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/item/DragonBall7Item.java",
+          "src/main/resources/assets/dragon_ball/models/item/dragon_ball_7.json"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "DisplaySummonButton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "display_summon_button",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/DisplaySummonButtonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "SummonShenron",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summon_shenron",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/SummonShenronProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "ShenronOnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shenron_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/ShenronOnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "ShenronRightClickedOnEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shenron_right_clicked_on_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/ShenronRightClickedOnEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "Shenron",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shenron",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/entity/ShenronEntity.java",
+          "src/main/java/com/alexbalsillie/dragonball/client/renderer/ShenronRenderer.java",
+          "src/main/resources/assets/dragon_ball/models/item/shenron_spawn_egg.json"
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "ShenronWishGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shenron_wish_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/client/gui/ShenronWishGUIScreen.java",
+          "src/main/java/com/alexbalsillie/dragonball/network/ShenronWishGUIButtonMessage.java",
+          "src/main/java/com/alexbalsillie/dragonball/world/inventory/ShenronWishGUIMenu.java"
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "RichesWish",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riches_wish",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/RichesWishProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "XPWish",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xp_wish",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/XPWishProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "HeartsWish",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hearts_wish",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/HeartsWishProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "StrengthWish",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_wish",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/StrengthWishProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "ShenronsPouch",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shenrons_pouch",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/item/ShenronsPouchItem.java",
+          "src/main/resources/assets/dragon_ball/models/item/shenrons_pouch.json"
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "ShenronsPouchRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shenrons_pouch_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/ShenronsPouchRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "EndWish",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_wish",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/EndWishProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "FoundAllBalls",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "found_all_balls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/advancements/found_all_balls.json"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "FoundOneBall",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "found_one_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/advancements/found_one_ball.json"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "KiOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/client/screens/KiOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiStage1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_stage_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiStage1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiStage2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_stage_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiStage2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiStage3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_stage_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiStage3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiStage4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_stage_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiStage4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiStage5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_stage_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiStage5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiStage6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_stage_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiStage6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiStage7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_stage_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiStage7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiStage8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_stage_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiStage8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiStage9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_stage_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiStage9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiStage10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_stage_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiStage10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiRechargeBind",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_recharge_bind",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/network/KiRechargeBindMessage.java"
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiRecharge",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_recharge",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiRechargeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiRechargeBindOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_recharge_bind_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiRechargeBindOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiRechargeBindOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_recharge_bind_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiRechargeBindOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "Energy",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/damage_type/energy.json"
+        ]
+      },
+      "path": "~/Attacks"
+    },
+    {
+      "name": "KiBlastBindOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_blast_bind_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiBlastBindOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Attacks/KiBlast"
+    },
+    {
+      "name": "KiBlastBind",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_blast_bind",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/network/KiBlastBindMessage.java"
+        ]
+      },
+      "path": "~/Attacks/KiBlast"
+    },
+    {
+      "name": "RawKiEnergyPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_ki_energy_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/RawKiEnergyPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "RawKiEnergy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_ki_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/item/RawKiEnergyItem.java",
+          "src/main/resources/assets/dragon_ball/models/item/raw_ki_energy.json"
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiBlastProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_blast_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/client/renderer/KiBlastProjectileRenderer.java",
+          "src/main/java/com/alexbalsillie/dragonball/entity/KiBlastProjectileEntity.java"
+        ]
+      },
+      "path": "~/Attacks/KiBlast"
+    },
+    {
+      "name": "KiBlastProjectileWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_blast_projectile_while_projectile_flying_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiBlastProjectileWhileProjectileFlyingTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "immediatesourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Attacks/KiBlast"
+    },
+    {
+      "name": "LearnKiBlast",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_ki_blast",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/LearnKiBlastProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Attacks/KiBlast"
+    },
+    {
+      "name": "KiBlastLearnable",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_blast_learnable",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiBlastLearnableProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Attacks/KiBlast"
+    },
+    {
+      "name": "OpenMoveGUI",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_move_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/network/OpenMoveGUIMessage.java"
+        ]
+      },
+      "path": "~/Attacks"
+    },
+    {
+      "name": "MoveLearner",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "move_learner",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/network/MoveLearnerButtonMessage.java",
+          "src/main/java/com/alexbalsillie/dragonball/client/gui/MoveLearnerScreen.java",
+          "src/main/java/com/alexbalsillie/dragonball/world/inventory/MoveLearnerMenu.java"
+        ]
+      },
+      "path": "~/Attacks"
+    },
+    {
+      "name": "OpenMoveGUIOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_move_gui_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/OpenMoveGUIOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Attacks"
+    },
+    {
+      "name": "KiBlastLearned",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_blast_learned",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiBlastLearnedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Attacks/KiBlast"
+    },
+    {
+      "name": "FeatureDragonBallLootchest",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feature_dragon_ball_lootchest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/worldgen/placed_feature/feature_dragon_ball_lootchest.json",
+          "src/main/resources/data/dragon_ball/forge/biome_modifier/feature_dragon_ball_lootchest_biome_modifier.json",
+          "src/main/resources/data/dragon_ball/worldgen/configured_feature/feature_dragon_ball_lootchest.json"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "KaiokenParticles",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaioken_particles",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/client/particle/KaiokenParticlesParticle.java",
+          "src/main/resources/assets/dragon_ball/particles/kaioken_particles.json"
+        ]
+      },
+      "path": "~/Forms/Kaioken"
+    },
+    {
+      "name": "KaiokenNotLearned",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaioken_not_learned",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KaiokenNotLearnedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Forms/Kaioken"
+    },
+    {
+      "name": "KaiokenLearned",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaioken_learned",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KaiokenLearnedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Forms/Kaioken"
+    },
+    {
+      "name": "FormLearner",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "form_learner",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/world/inventory/FormLearnerMenu.java",
+          "src/main/java/com/alexbalsillie/dragonball/network/FormLearnerButtonMessage.java",
+          "src/main/java/com/alexbalsillie/dragonball/client/gui/FormLearnerScreen.java"
+        ]
+      },
+      "path": "~/Forms"
+    },
+    {
+      "name": "FormLearnerKeybindOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "form_learner_keybind_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/FormLearnerKeybindOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Forms"
+    },
+    {
+      "name": "FormLearnerKeybind",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "form_learner_keybind",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/network/FormLearnerKeybindMessage.java"
+        ]
+      },
+      "path": "~/Forms"
+    },
+    {
+      "name": "LearnKaioken",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_kaioken",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/LearnKaiokenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Forms/Kaioken"
+    },
+    {
+      "name": "PowerPole",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_pole",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/item/power_pole.json",
+          "src/main/java/com/alexbalsillie/dragonball/item/PowerPoleItem.java"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "PowerPoleRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_pole_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/PowerPoleRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "MobsDropRawKi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mobs_drop_raw_ki",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/MobsDropRawKiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "ShenronOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shenron_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/ShenronOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Shenron"
+    },
+    {
+      "name": "PowerPoleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_pole_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/power_pole_recipe.json"
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "KaiokenForm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaioken_form",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KaiokenFormProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Forms/Kaioken"
+    },
+    {
+      "name": "KaiokenDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaioken_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/damage_type/kaioken_damage.json"
+        ]
+      },
+      "path": "~/Forms/Kaioken"
+    },
+    {
+      "name": "KaiokenActive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaioken_active",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KaiokenActiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Forms/Kaioken"
+    },
+    {
+      "name": "KaiokenActiveOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaioken_active_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/client/screens/KaiokenActiveOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Forms/Kaioken"
+    },
+    {
+      "name": "KaiokenKeybindOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaioken_keybind_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KaiokenKeybindOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Forms/Kaioken"
+    },
+    {
+      "name": "KaiokenKeybind",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaioken_keybind",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/network/KaiokenKeybindMessage.java"
+        ]
+      },
+      "path": "~/Forms/Kaioken"
+    },
+    {
+      "name": "NamekianWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_wood.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_wood.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianWoodBlock.java",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_wood.json",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_wood.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/item/namekian_log.json",
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_log.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianLogBlock.java",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_log.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_log.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_planks.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_planks.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianPlanksBlock.java",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_planks.json",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_planks.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianLeavesBlock.java",
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_leaves.json",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_leaves.json",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_leaves.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_leaves.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_stairs.json",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_stairs.json",
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_stairs.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianStairsBlock.java",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_stairs_outer.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_stairs.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_stairs_inner.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianSlabBlock.java",
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_slab.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_slab_top.json",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_slab.json",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_slab.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_slab.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_slab_full.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/block/namekian_fence_post.json",
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_fence.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_fence.json",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_fence.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_fence_inventory.json",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_fence.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianFenceBlock.java"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianFenceGateBlock.java",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_fence_gate.json",
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_fence_gate.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_fence_gate_wall.json",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_fence_gate.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_fence_gate.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_fence_gate_wall_open.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_pressure_plate.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_pressure_plate.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_pressure_plate_down.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianPressurePlateBlock.java",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_pressure_plate.json",
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_pressure_plate.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/block/namekian_button.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_button_pressed.json",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_button_inventory.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianButtonBlock.java",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_button.json",
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_button.json",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_button.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_wood_recipe.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_slab_recipe.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_fence_recipe.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_button_recipe.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_stick_recipe.json"
+        ]
+      },
+      "path": "~/Namek/Wood"
+    },
+    {
+      "name": "NamekianDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_dirt.json",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_dirt.json",
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_dirt.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianDirtBlock.java",
+          "src/main/resources/assets/dragon_ball/models/block/namekian_dirt.json"
+        ]
+      },
+      "path": "~/Namek"
+    },
+    {
+      "name": "NamekianGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/block/namekian_grass.json",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/namekian_grass.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/NamekianGrassBlock.java",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_grass.json",
+          "src/main/resources/assets/dragon_ball/blockstates/namekian_grass.json"
+        ]
+      },
+      "path": "~/Namek"
+    },
+    {
+      "name": "NamekBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namek_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/worldgen/biome/namek_biome.json",
+          "src/main/resources/data/dragon_ball/worldgen/placed_feature/namek_biome_tree.json",
+          "src/main/resources/data/dragon_ball/worldgen/configured_feature/namek_biome_tree.json"
+        ]
+      },
+      "path": "~/Namek"
+    },
+    {
+      "name": "PlanetNamek",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planet_namek",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/block/PlanetNamekPortalBlock.java",
+          "src/main/resources/assets/dragon_ball/models/block/planet_namek_portal_ew.json",
+          "src/main/java/com/alexbalsillie/dragonball/world/teleporter/PlanetNamekTeleporter.java",
+          "src/main/java/com/alexbalsillie/dragonball/world/dimension/PlanetNamekDimension.java",
+          "src/main/java/com/alexbalsillie/dragonball/world/teleporter/PlanetNamekPortalShape.java",
+          "src/main/resources/data/dragon_ball/dimension/planet_namek.json",
+          "src/main/resources/assets/dragon_ball/blockstates/planet_namek_portal.json",
+          "src/main/resources/assets/dragon_ball/models/block/planet_namek_portal_ns.json",
+          "src/main/resources/data/dragon_ball/dimension_type/planet_namek.json"
+        ]
+      },
+      "path": "~/Namek"
+    },
+    {
+      "name": "NamekianShipItemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_ship_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/NamekianShipItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Namek"
+    },
+    {
+      "name": "NamekianShipItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_ship_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/item/NamekianShipItemItem.java",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_ship_item.json"
+        ]
+      },
+      "path": "~/Namek"
+    },
+    {
+      "name": "FreizasShipItemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freizas_ship_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/FreizasShipItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Namek"
+    },
+    {
+      "name": "FriezasShipItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friezas_ship_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/item/FriezasShipItemItem.java",
+          "src/main/resources/assets/dragon_ball/models/item/friezas_ship_item.json"
+        ]
+      },
+      "path": "~/Namek"
+    },
+    {
+      "name": "NamekianShipRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_ship_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/namekian_ship_recipe.json"
+        ]
+      },
+      "path": "~/Namek"
+    },
+    {
+      "name": "NamekianTrees",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_trees",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/worldgen/configured_feature/namekian_trees.json",
+          "src/main/resources/data/dragon_ball/worldgen/placed_feature/namekian_trees.json",
+          "src/main/resources/data/dragon_ball/forge/biome_modifier/namekian_trees_biome_modifier.json"
+        ]
+      },
+      "path": "~/Namek"
+    },
+    {
+      "name": "Namekian1",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_1",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/entity/Namekian1Entity.java",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_1_spawn_egg.json",
+          "src/main/java/com/alexbalsillie/dragonball/client/renderer/Namekian1Renderer.java"
+        ]
+      },
+      "path": "~/Namek/Namekians"
+    },
+    {
+      "name": "Namekian2",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_2",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/entity/Namekian2Entity.java",
+          "src/main/java/com/alexbalsillie/dragonball/client/renderer/Namekian2Renderer.java",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_2_spawn_egg.json"
+        ]
+      },
+      "path": "~/Namek/Namekians"
+    },
+    {
+      "name": "Namekian3",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_3",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/client/renderer/Namekian3Renderer.java",
+          "src/main/resources/assets/dragon_ball/models/item/namekian_3_spawn_egg.json",
+          "src/main/java/com/alexbalsillie/dragonball/entity/Namekian3Entity.java"
+        ]
+      },
+      "path": "~/Namek/Namekians"
+    },
+    {
+      "name": "FlightNotLearned",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flight_not_learned",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/FlightNotLearnedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Attacks/Flight"
+    },
+    {
+      "name": "LearnFlight",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_flight",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/LearnFlightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Attacks/Flight"
+    },
+    {
+      "name": "FlightLearned",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flight_learned",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/FlightLearnedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Attacks/Flight"
+    },
+    {
+      "name": "KiFlying",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_flying",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiFlyingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Attacks/Flight"
+    },
+    {
+      "name": "GreenScouter",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_scouter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/item/green_scouter_helmet.json",
+          "src/main/java/com/alexbalsillie/dragonball/item/GreenScouterItem.java"
+        ]
+      },
+      "path": "~/Armor/Scouters"
+    },
+    {
+      "name": "GreenScouterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_scouter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/green_scouter_recipe.json"
+        ]
+      },
+      "path": "~/Armor/Scouters"
+    },
+    {
+      "name": "GreenScouterOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_scouter_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/client/screens/GreenScouterOverlayOverlay.java"
+        ]
+      },
+      "path": "~/Armor/Scouters"
+    },
+    {
+      "name": "IsWearingGreenScouter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_wearing_green_scouter",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/IsWearingGreenScouterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Armor/Scouters"
+    },
+    {
+      "name": "GetEntityLookingAt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_entity_looking_at",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/GetEntityLookingAtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Armor/Scouters"
+    },
+    {
+      "name": "GetMaxHealthLookingAt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_max_health_looking_at",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/GetMaxHealthLookingAtProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Armor/Scouters"
+    },
+    {
+      "name": "GokusPouchRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gokus_pouch_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/gokus_pouch_recipe.json"
+        ]
+      },
+      "path": "~/Dragon Balls"
+    },
+    {
+      "name": "NamekianOnRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "namekian_on_right_click",
+      "metadata": {
+        "return_type": "actionresulttype",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/NamekianOnRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Namek/Namekians"
+    },
+    {
+      "name": "InstantTransmissionProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_transmission_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/InstantTransmissionProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Attacks/Instant Transmission"
+    },
+    {
+      "name": "InstantTransmissionKeybind",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_transmission_keybind",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/network/InstantTransmissionKeybindMessage.java"
+        ]
+      },
+      "path": "~/Attacks/Instant Transmission"
+    },
+    {
+      "name": "InstantTransmissionLearned",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_transmission_learned",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/InstantTransmissionLearnedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Attacks/Instant Transmission"
+    },
+    {
+      "name": "InstantTransmissionNotLearned",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instant_transmission_not_learned",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/InstantTransmissionNotLearnedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Attacks/Instant Transmission"
+    },
+    {
+      "name": "LearnInstantTransmission",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "learn_instant_transmission",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/LearnInstantTransmissionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Attacks/Instant Transmission"
+    },
+    {
+      "name": "KiParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/client/particle/KiParticleParticle.java",
+          "src/main/resources/assets/dragon_ball/particles/ki_particle.json"
+        ]
+      },
+      "path": "~/Ki"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "ballsFound",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "playerKi",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "kiRecharging",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "kiBlastUnlocked",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "kaiokenLearned",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "kaiokenActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "shenronWishGranted",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "flightLearned",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "instantTransmissionUnlocked",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "shenronspawn",
+      "files": [
+        "shenronspawn"
+      ],
+      "category": "neutral",
+      "subtitle": "Shenron talks"
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:NamekianLeaves"
+    ],
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:NamekianDirt"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:NamekianPlanks",
+      "~CUSTOM:NamekianLog",
+      "~CUSTOM:NamekianWood"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:NamekianSlab"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "CUSTOM:NamekianFence",
+      "CUSTOM:NamekianFenceGate"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:NamekianFence",
+      "CUSTOM:NamekianFenceGate"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:NamekianGrass",
+      "~CUSTOM:NamekianDirt"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:NamekianStairs"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:NamekianDirt",
+      "~CUSTOM:NamekianGrass"
+    ],
+    "BIOMES:minecraft:is_overworld": [],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:NamekianLog"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:DragonBallTab": [
+      "GokusPouchItem",
+      "DragonBall1",
+      "DragonBall2",
+      "DragonBall3",
+      "DragonBall4",
+      "DragonBall5",
+      "DragonBall6",
+      "DragonBall7",
+      "ShenronsPouch",
+      "Shenron",
+      "RawKiEnergy",
+      "PowerPole",
+      "NamekianShipItem",
+      "Namekian1",
+      "Namekian2",
+      "Namekian3",
+      "GreenScouter"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "gui.dragon_ball.gokus_pouch_gui.button_summon": "Summon",
+      "item.dragon_ball.power_pole": "Power Pole",
+      "block.dragon_ball.namekian_wood": "Namekian Wood",
+      "item.dragon_ball.green_scouter_helmet": "Green Scouter",
+      "block.dragon_ball.namekian_slab": "Namekian Wood Slab",
+      "item_group.dragon_ball.dragon_ball_tab": "Dragon Ball Mod",
+      "block.dragon_ball.namekian_planks": "Namekian Wood Planks",
+      "gui.dragon_ball.shenron_wish_gui.button_i_wish_for_xp": "I wish for xp",
+      "death.attack.energy.item": "%1$s was vaporized by %2$s",
+      "item.dragon_ball.dragon_ball_3": "3 Star Dragon Ball",
+      "block.dragon_ball.namekian_stairs": "Namekian Wood Stairs",
+      "item.dragon_ball.dragon_ball_2": "2 Star Dragon Ball",
+      "item.dragon_ball.dragon_ball_5": "5 Star Dragon Ball",
+      "item.dragon_ball.namekian_3_spawn_egg": "Namekian Spawn Egg",
+      "item.dragon_ball.dragon_ball_4": "4 Star Dragon Ball",
+      "item.dragon_ball.dragon_ball_7": "7 Star Dragon Ball",
+      "subtitles.shenronspawn": "Shenron talks",
+      "item.dragon_ball.dragon_ball_6": "6 Star Dragon Ball",
+      "block.dragon_ball.namekian_fence": "Namekian Wood Fence",
+      "gui.dragon_ball.gokus_pouch_gui.label_gokus_pouch": "Goku\u0027s Pouch",
+      "item.dragon_ball.namekian_2_spawn_egg": "Namekian Spawn Egg",
+      "gui.dragon_ball.move_learner.button_learn_flight": "Learn Flight [20]",
+      "advancements.found_one_ball.title": "The Hunt Begins...",
+      "death.attack.kaioken_damage.item": "%1$s was killed by %2$s using %3$s",
+      "gui.dragon_ball.form_learner.label_learn_forms": "Learn Forms",
+      "entity.dragon_ball.namekian_3": "Namekian",
+      "entity.dragon_ball.namekian_1": "Namekian",
+      "item.dragon_ball.shenron_spawn_egg": "Shenron Spawn Egg",
+      "entity.dragon_ball.namekian_2": "Namekian",
+      "item.dragon_ball.raw_ki_energy": "Raw Ki Energy",
+      "gui.dragon_ball.shenron_wish_gui.button_i_wish_for_extra_life": "I wish for extra life",
+      "gui.dragon_ball.form_learner.label_kaioken_learned": "Kaioken Learned",
+      "death.attack.kaioken_damage.player": "%1$s tried to push their limits while fighting %2$s",
+      "gui.dragon_ball.shenron_wish_gui.button_i_wish_for_riches": "I wish for riches",
+      "death.attack.kaioken_damage": "%1$s pushed their limits too hard",
+      "entity.dragon_ball.shenron": "Shenron",
+      "key.dragon_ball.ki_recharge_bind": "Recharge Ki",
+      "gui.dragon_ball.shenron_wish_gui.button_i_wish_to_become_strong": "I wish to become strong",
+      "death.attack.energy": "%1$s was vaporized by %2$s",
+      "death.attack.energy.player": "%1$s died whilst trying to escape %2$s",
+      "key.dragon_ball.instant_transmission_keybind": "Instant Transmission",
+      "gui.dragon_ball.move_learner.button_learn_ki_blast": "Learn Ki Blast [15]",
+      "advancements.found_all_balls.descr": "You found all 7 dragon balls at least once!",
+      "gui.dragon_ball.move_learner.label_flight_learned": "Flight Learned",
+      "item.dragon_ball.namekian_1_spawn_egg": "Namekian Spawn Egg",
+      "item.dragon_ball.gokus_pouch_item": "Goku\u0027s Pouch",
+      "gui.dragon_ball.form_learner.button_learn_kaioken_15": "Learn Kaioken [15]",
+      "advancements.found_one_ball.descr": "You have found a dragon ball! Collect all 7 and something might happen",
+      "block.dragon_ball.namekian_button": "Namekian Wood Button",
+      "item.dragon_ball.friezas_ship_item": "Friezas Ship Item",
+      "key.dragon_ball.kaioken_keybind": "Activate/Deactivate Kaioken",
+      "item.dragon_ball.namekian_ship_item": "Namekian Ship",
+      "gui.dragon_ball.move_learner.label_ki_blast_learned": "Ki Blast Learned",
+      "block.dragon_ball.namekian_dirt": "Namekian Dirt",
+      "gui.dragon_ball.move_learner.label_instant_transmission_learned": "Instant Transmission Learned",
+      "item.dragon_ball.dragon_ball_1": "1 Star Dragon Ball",
+      "block.dragon_ball.namekian_pressure_plate": "Namekian Wood Pressure Plate",
+      "gui.dragon_ball.move_learner.button_learn_instant_transmission": "Learn Instant Transmission [20]",
+      "block.dragon_ball.dragon_ball_lootchest": "Dragon Ball Lootchest",
+      "advancements.found_all_balls.title": "Dragon Ball Hunter",
+      "key.dragon_ball.ki_blast_bind": "Ki Blast Bind",
+      "gui.dragon_ball.move_learner.label_learn_moves": "Learn Abilities",
+      "block.dragon_ball.namekian_leaves": "Namekian Leaves",
+      "key.categories.dragonball": "Dragon Ball Mod",
+      "block.dragon_ball.namekian_fence_gate": "Namekian Wood Fence Gate",
+      "key.dragon_ball.open_move_gui": "Open Abilities GUI",
+      "gui.dragon_ball.kaioken_active_overlay.label_kaioken_active": "Kaioken Active",
+      "block.dragon_ball.namekian_grass": "Namekian Grass",
+      "key.dragon_ball.form_learner_keybind": "Open Form Learner",
+      "gui.dragon_ball.green_scouter_overlay.label_entity_information": "Entity Info",
+      "biome.dragon_ball.namek_biome": "Namek",
+      "block.dragon_ball.namekian_log": "Namekian Log",
+      "gui.dragon_ball.shenron_wish_gui.killwish": "I wish to kill..",
+      "item.dragon_ball.shenrons_pouch": "Shenrons Pouch"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dragon Balls",
+        "children": []
+      },
+      {
+        "name": "Shenron",
+        "children": []
+      },
+      {
+        "name": "Ki",
+        "children": []
+      },
+      {
+        "name": "Forms",
+        "children": [
+          {
+            "name": "Kaioken",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Attacks",
+        "children": [
+          {
+            "name": "KiBlast",
+            "children": []
+          },
+          {
+            "name": "Flight",
+            "children": []
+          },
+          {
+            "name": "Instant Transmission",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "Namek",
+        "children": [
+          {
+            "name": "Wood",
+            "children": []
+          },
+          {
+            "name": "Namekians",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Armor",
+        "children": [
+          {
+            "name": "Scouters",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "dragon_ball",
+    "modName": "Dragon Ball",
+    "version": "1.0.0",
+    "description": "Adds features from the Dragon Ball universe to minecraft!",
+    "author": "alex",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/dragon-ball-mod/",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "dragon_ball_4",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "alex",
+    "modElementsPackage": "com.alexbalsillie.dragonball"
+  },
+  "mcreatorVersion": 202400232117
+}

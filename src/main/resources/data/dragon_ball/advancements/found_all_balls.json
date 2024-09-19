@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "dragon_ball:gokus_pouch_item"
+    },
+    "title": {
+      "translate": "advancements.found_all_balls.title"
+    },
+    "description": {
+      "translate": "advancements.found_all_balls.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "found_all_balls_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "dragon_ball:found_one_ball"
+}

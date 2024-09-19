@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aab",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:quartz_block"
+    },
+    "b": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "c": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "d": {
+      "item": "dragon_ball:raw_ki_energy"
+    }
+  },
+  "result": {
+    "item": "dragon_ball:namekian_ship_item",
+    "count": 1
+  }
+}

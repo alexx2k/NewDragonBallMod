@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.QUARTZ_BLOCK#3"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#3"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#0"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#3"
+      },
+      {
+        "value": "Items.AMETHYST_SHARD"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#3"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#3"
+      },
+      {
+        "value": "CUSTOM:RawKiEnergy"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#3"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NamekianShipItem"
+    },
+    "name": "namekian_ship_recipe",
+    "namespace": "mod"
+  }
+}

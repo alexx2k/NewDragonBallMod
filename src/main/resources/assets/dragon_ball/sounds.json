@@ -1,0 +1,11 @@
+{
+  "shenronspawn": {
+    "subtitle": "subtitles.shenronspawn",
+    "sounds": [
+      {
+        "name": "dragon_ball:shenronspawn",
+        "stream": false
+      }
+    ]
+  }
+}

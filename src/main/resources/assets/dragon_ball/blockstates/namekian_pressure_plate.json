@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "dragon_ball:block/namekian_pressure_plate"
+    },
+    "powered=true": {
+      "model": "dragon_ball:block/namekian_pressure_plate_down"
+    }
+  }
+}

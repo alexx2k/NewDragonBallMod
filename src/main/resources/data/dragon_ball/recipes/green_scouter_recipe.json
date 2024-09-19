@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  a",
+    "bca"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:quartz_block"
+    },
+    "b": {
+      "item": "dragon_ball:raw_ki_energy"
+    },
+    "c": {
+      "item": "minecraft:lime_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "dragon_ball:green_scouter_helmet",
+    "count": 1
+  }
+}

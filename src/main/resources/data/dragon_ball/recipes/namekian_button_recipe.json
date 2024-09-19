@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "dragon_ball:namekian_planks"
+    }
+  ],
+  "result": {
+    "item": "dragon_ball:namekian_button",
+    "count": 1
+  }
+}

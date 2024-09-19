@@ -1,0 +1,7 @@
+{
+  "parent": "dragon_ball:custom/powerpole",
+  "textures": {
+    "0": "dragon_ball:block/powerpole",
+    "particle": "dragon_ball:item/powerpoleitem"
+  }
+}

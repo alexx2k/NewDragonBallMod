@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "dragon_ball:dragon_ball_1"
+    },
+    "title": {
+      "translate": "advancements.found_one_ball.title"
+    },
+    "description": {
+      "translate": "advancements.found_one_ball.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "found_one_ball_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

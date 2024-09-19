@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "category": "redstone",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "dragon_ball:namekian_planks"
+    }
+  },
+  "result": {
+    "item": "dragon_ball:namekian_pressure_plate",
+    "count": 1
+  }
+}

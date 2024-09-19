@@ -1,0 +1,73 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_learn_forms",
+          "text": {
+            "fixedValue": "Learn Forms"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_learn_kaioken_15",
+          "text": "Learn Kaioken [15]",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "LearnKaioken"
+          },
+          "displayCondition": {
+            "name": "KaiokenNotLearned"
+          },
+          "width": 119,
+          "height": 20,
+          "x": 155,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_kaioken_learned",
+          "text": {
+            "fixedValue": "Kaioken Learned"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "KaiokenLearned"
+          },
+          "x": 177,
+          "y": 62
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

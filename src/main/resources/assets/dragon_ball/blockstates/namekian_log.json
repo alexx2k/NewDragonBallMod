@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dragon_ball:block/namekian_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dragon_ball:block/namekian_log"
+    },
+    "axis=z": {
+      "model": "dragon_ball:block/namekian_log",
+      "x": 90
+    }
+  }
+}

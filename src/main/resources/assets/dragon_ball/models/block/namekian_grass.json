@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dragon_ball:block/namekian_dirt",
+    "up": "dragon_ball:block/namekian_grass_top",
+    "north": "dragon_ball:block/namekian_grass_side",
+    "east": "dragon_ball:block/namekian_grass_side",
+    "south": "dragon_ball:block/namekian_grass_side",
+    "west": "dragon_ball:block/namekian_grass_side",
+    "particle": "dragon_ball:block/namekian_dirt"
+  },
+  "render_type": "solid"
+}

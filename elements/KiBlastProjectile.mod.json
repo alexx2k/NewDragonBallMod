@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "Blocks.STONE#0"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "block.beacon.activate"
+    },
+    "igniteFire": false,
+    "power": 2.0,
+    "damage": 3.0,
+    "knockback": 2,
+    "entityModel": "ModelKiBlast",
+    "customModelTexture": "kiblast.png",
+    "onFlyingTick": {
+      "name": "KiBlastProjectileWhileProjectileFlyingTick"
+    }
+  }
+}

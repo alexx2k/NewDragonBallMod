@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dragon_ball:namek_biome",
+  "features": "dragon_ball:namekian_trees",
+  "step": "surface_structures"
+}

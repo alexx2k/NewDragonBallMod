@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dragon_ball:block/namekian_log_top",
+    "up": "dragon_ball:block/namekian_log_top",
+    "north": "dragon_ball:block/namekian_log_side",
+    "east": "dragon_ball:block/namekian_log_side",
+    "south": "dragon_ball:block/namekian_log_side",
+    "west": "dragon_ball:block/namekian_log_side",
+    "particle": "dragon_ball:block/namekian_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "dragon_ball:blocks/namekian_wood",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragon_ball:namekian_wood"
+        }
+      ]
+    }
+  ]
+}

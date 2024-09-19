@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dragon_ball:block/namekian_slab"
+    },
+    "type=top": {
+      "model": "dragon_ball:block/namekian_slab_top"
+    },
+    "type=double": {
+      "model": "dragon_ball:block/namekian_slab_full"
+    }
+  }
+}

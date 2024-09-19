@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "when_caused_by_living_non_player",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s was vaporized by %2$s",
+    "itemDeathMessage": "%1$s was vaporized by %2$s",
+    "playerDeathMessage": "%1$s died whilst trying to escape %2$s"
+  }
+}

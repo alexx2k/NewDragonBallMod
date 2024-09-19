@@ -1,0 +1,12 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "B",
+    "keyBindingName": "Open Form Learner",
+    "keyBindingCategoryKey": "dragonball",
+    "onKeyPressed": {
+      "name": "FormLearnerKeybindOnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_fv": 66,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "Recharge Ki",
+    "keyBindingCategoryKey": "dragonball",
+    "onKeyPressed": {
+      "name": "KiRechargeBindOnKeyPressed"
+    },
+    "onKeyReleased": {
+      "name": "KiRechargeBindOnKeyReleased"
+    }
+  }
+}

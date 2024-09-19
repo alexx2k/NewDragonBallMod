@@ -1,0 +1,145 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_learn_moves",
+          "text": {
+            "fixedValue": "Learn Abilities"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 174,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_learn_ki_blast",
+          "text": "Learn Ki Blast [15]",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "LearnKiBlast"
+          },
+          "displayCondition": {
+            "name": "KiBlastLearnable"
+          },
+          "width": 98,
+          "height": 20,
+          "x": 165,
+          "y": 59
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ki_blast_learned",
+          "text": {
+            "fixedValue": "Ki Blast Learned"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "KiBlastLearned"
+          },
+          "x": 173,
+          "y": 63
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_learn_flight",
+          "text": "Learn Flight [20]",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "LearnFlight"
+          },
+          "displayCondition": {
+            "name": "FlightNotLearned"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 170,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_flight_learned",
+          "text": {
+            "fixedValue": "Flight Learned"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "FlightLearned"
+          },
+          "x": 177,
+          "y": 92
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_learn_instant_transmission",
+          "text": "Learn Instant Transmission [20]",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "LearnInstantTransmission"
+          },
+          "displayCondition": {
+            "name": "InstantTransmissionNotLearned"
+          },
+          "width": 161,
+          "height": 20,
+          "x": 133,
+          "y": 115
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_instant_transmission_learned",
+          "text": {
+            "fixedValue": "Instant Transmission Learned"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "InstantTransmissionLearned"
+          },
+          "x": 137,
+          "y": 120
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

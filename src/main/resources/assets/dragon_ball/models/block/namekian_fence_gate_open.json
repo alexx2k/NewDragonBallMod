@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "particle": "dragon_ball:block/namekian_planks",
+    "texture": "dragon_ball:block/namekian_planks"
+  },
+  "render_type": "solid"
+}

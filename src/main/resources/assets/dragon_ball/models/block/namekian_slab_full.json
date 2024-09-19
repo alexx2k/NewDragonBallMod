@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "dragon_ball:block/namekian_planks",
+    "bottom": "dragon_ball:block/namekian_planks",
+    "top": "dragon_ball:block/namekian_planks",
+    "side": "dragon_ball:block/namekian_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,82 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_i_wish_for_riches",
+          "text": "I wish for riches",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "RichesWish"
+          },
+          "width": 113,
+          "height": 20,
+          "x": 159,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_i_wish_for_xp",
+          "text": "I wish for xp",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "XPWish"
+          },
+          "width": 92,
+          "height": 20,
+          "x": 168,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_i_wish_for_extra_life",
+          "text": "I wish for extra life",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "HeartsWish"
+          },
+          "width": 134,
+          "height": 20,
+          "x": 150,
+          "y": 125
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_i_wish_to_become_strong",
+          "text": "I wish to become strong",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "StrengthWish"
+          },
+          "width": 144,
+          "height": 20,
+          "x": 141,
+          "y": 161
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

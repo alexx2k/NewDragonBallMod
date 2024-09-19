@@ -1,0 +1,9 @@
+{
+  "parent": "dragon_ball:custom/dragon_ball",
+  "textures": {
+    "all": "dragon_ball:block/dragon_ball",
+    "particle": "dragon_ball:block/dragon_ball",
+    "0": "dragon_ball:block/dragon_ball"
+  },
+  "render_type": "solid"
+}
