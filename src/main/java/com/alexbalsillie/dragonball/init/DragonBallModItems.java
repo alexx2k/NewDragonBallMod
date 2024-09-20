@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import com.alexbalsillie.dragonball.item.ShenronsPouchItem;
+import com.alexbalsillie.dragonball.item.SensuBeanItemItem;
 import com.alexbalsillie.dragonball.item.RawKiEnergyItem;
 import com.alexbalsillie.dragonball.item.PowerPoleItem;
 import com.alexbalsillie.dragonball.item.NamekianShipItemItem;
@@ -62,6 +63,8 @@ public class DragonBallModItems {
 	public static final RegistryObject<Item> NAMEKIAN_2_SPAWN_EGG = REGISTRY.register("namekian_2_spawn_egg", () -> new ForgeSpawnEggItem(DragonBallModEntities.NAMEKIAN_2, -16751104, -10092442, new Item.Properties()));
 	public static final RegistryObject<Item> NAMEKIAN_3_SPAWN_EGG = REGISTRY.register("namekian_3_spawn_egg", () -> new ForgeSpawnEggItem(DragonBallModEntities.NAMEKIAN_3, -16724992, -16777012, new Item.Properties()));
 	public static final RegistryObject<Item> GREEN_SCOUTER_HELMET = REGISTRY.register("green_scouter_helmet", () -> new GreenScouterItem.Helmet());
+	public static final RegistryObject<Item> SENSU_BEAN_ITEM = REGISTRY.register("sensu_bean_item", () -> new SensuBeanItemItem());
+	public static final RegistryObject<Item> KORIN_CRATE = block(DragonBallModBlocks.KORIN_CRATE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

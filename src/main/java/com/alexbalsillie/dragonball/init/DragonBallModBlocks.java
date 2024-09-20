@@ -23,6 +23,7 @@ import com.alexbalsillie.dragonball.block.NamekianFenceGateBlock;
 import com.alexbalsillie.dragonball.block.NamekianFenceBlock;
 import com.alexbalsillie.dragonball.block.NamekianDirtBlock;
 import com.alexbalsillie.dragonball.block.NamekianButtonBlock;
+import com.alexbalsillie.dragonball.block.KorinCrateBlock;
 import com.alexbalsillie.dragonball.block.DragonBallLootchestBlock;
 import com.alexbalsillie.dragonball.DragonBallMod;
 
@@ -42,6 +43,7 @@ public class DragonBallModBlocks {
 	public static final RegistryObject<Block> NAMEKIAN_DIRT = REGISTRY.register("namekian_dirt", () -> new NamekianDirtBlock());
 	public static final RegistryObject<Block> NAMEKIAN_GRASS = REGISTRY.register("namekian_grass", () -> new NamekianGrassBlock());
 	public static final RegistryObject<Block> PLANET_NAMEK_PORTAL = REGISTRY.register("planet_namek_portal", () -> new PlanetNamekPortalBlock());
+	public static final RegistryObject<Block> KORIN_CRATE = REGISTRY.register("korin_crate", () -> new KorinCrateBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

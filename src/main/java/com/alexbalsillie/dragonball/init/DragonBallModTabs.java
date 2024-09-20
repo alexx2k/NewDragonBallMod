@@ -40,6 +40,8 @@ public class DragonBallModTabs {
 				tabData.accept(DragonBallModItems.NAMEKIAN_2_SPAWN_EGG.get());
 				tabData.accept(DragonBallModItems.NAMEKIAN_3_SPAWN_EGG.get());
 				tabData.accept(DragonBallModItems.GREEN_SCOUTER_HELMET.get());
+				tabData.accept(DragonBallModItems.SENSU_BEAN_ITEM.get());
+				tabData.accept(DragonBallModBlocks.KORIN_CRATE.get().asItem());
 			})
 
 					.build());
@@ -67,6 +69,8 @@ public class DragonBallModTabs {
 			tabData.accept(DragonBallModBlocks.NAMEKIAN_LEAVES.get().asItem());
 			tabData.accept(DragonBallModBlocks.NAMEKIAN_DIRT.get().asItem());
 			tabData.accept(DragonBallModBlocks.NAMEKIAN_GRASS.get().asItem());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(DragonBallModItems.SENSU_BEAN_ITEM.get());
 		}
 	}
 }

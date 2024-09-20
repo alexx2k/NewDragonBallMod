@@ -1310,6 +1310,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -2386,6 +2390,98 @@
         ]
       },
       "path": "~/Ki"
+    },
+    {
+      "name": "SensuBeanItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sensu_bean_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/item/SensuBeanItemItem.java",
+          "src/main/resources/assets/dragon_ball/models/item/sensu_bean_item.json"
+        ]
+      },
+      "path": "~/Korin"
+    },
+    {
+      "name": "SensuBeanItemPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sensu_bean_item_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/SensuBeanItemPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Korin"
+    },
+    {
+      "name": "SensuBeanExtension",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sensu_bean_extension",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Korin"
+    },
+    {
+      "name": "KorinCrateOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korin_crate_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KorinCrateOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Korin"
+    },
+    {
+      "name": "KorinCrate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korin_crate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/block/korin_crate.json",
+          "src/main/resources/assets/dragon_ball/blockstates/korin_crate.json",
+          "src/main/java/com/alexbalsillie/dragonball/block/KorinCrateBlock.java",
+          "src/main/resources/data/dragon_ball/loot_tables/blocks/korin_crate.json",
+          "src/main/resources/assets/dragon_ball/models/item/korin_crate.json"
+        ]
+      },
+      "path": "~/Korin"
     }
   ],
   "variable_elements": [
@@ -2511,7 +2607,9 @@
       "Namekian1",
       "Namekian2",
       "Namekian3",
-      "GreenScouter"
+      "GreenScouter",
+      "SensuBeanItem",
+      "KorinCrate"
     ]
   },
   "language_map": {
@@ -2537,6 +2635,7 @@
       "block.dragon_ball.namekian_fence": "Namekian Wood Fence",
       "gui.dragon_ball.gokus_pouch_gui.label_gokus_pouch": "Goku\u0027s Pouch",
       "item.dragon_ball.namekian_2_spawn_egg": "Namekian Spawn Egg",
+      "block.dragon_ball.korin_crate": "Korin Crate",
       "gui.dragon_ball.move_learner.button_learn_flight": "Learn Flight [20]",
       "advancements.found_one_ball.title": "The Hunt Begins...",
       "death.attack.kaioken_damage.item": "%1$s was killed by %2$s using %3$s",
@@ -2546,6 +2645,7 @@
       "item.dragon_ball.shenron_spawn_egg": "Shenron Spawn Egg",
       "entity.dragon_ball.namekian_2": "Namekian",
       "item.dragon_ball.raw_ki_energy": "Raw Ki Energy",
+      "item.dragon_ball.sensu_bean_item": "Sensu Bean",
       "gui.dragon_ball.shenron_wish_gui.button_i_wish_for_extra_life": "I wish for extra life",
       "gui.dragon_ball.form_learner.label_kaioken_learned": "Kaioken Learned",
       "death.attack.kaioken_damage.player": "%1$s tried to push their limits while fighting %2$s",
@@ -2658,6 +2758,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Korin",
+        "children": []
       }
     ]
   },
