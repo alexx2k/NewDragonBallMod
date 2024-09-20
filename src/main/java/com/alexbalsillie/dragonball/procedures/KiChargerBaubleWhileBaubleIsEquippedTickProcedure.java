@@ -13,7 +13,7 @@ public class KiChargerBaubleWhileBaubleIsEquippedTickProcedure {
 		if ((entity.getCapability(DragonBallModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DragonBallModVariables.PlayerVariables())).playerKi < 100) {
 			DragonBallMod.queueServerWork(20, () -> {
 				{
-					double _setval = (entity.getCapability(DragonBallModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DragonBallModVariables.PlayerVariables())).playerKi + 3;
+					double _setval = (entity.getCapability(DragonBallModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DragonBallModVariables.PlayerVariables())).playerKi + 2;
 					entity.getCapability(DragonBallModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 						capability.playerKi = _setval;
 						capability.syncPlayerVariables(entity);
