@@ -18,6 +18,7 @@ import com.alexbalsillie.dragonball.item.SensuBeanItemItem;
 import com.alexbalsillie.dragonball.item.RawKiEnergyItem;
 import com.alexbalsillie.dragonball.item.PowerPoleItem;
 import com.alexbalsillie.dragonball.item.NamekianShipItemItem;
+import com.alexbalsillie.dragonball.item.KiChargerBaubleItem;
 import com.alexbalsillie.dragonball.item.GreenScouterItem;
 import com.alexbalsillie.dragonball.item.GokusPouchItemItem;
 import com.alexbalsillie.dragonball.item.FriezasShipItemItem;
@@ -28,6 +29,7 @@ import com.alexbalsillie.dragonball.item.DragonBall4Item;
 import com.alexbalsillie.dragonball.item.DragonBall3Item;
 import com.alexbalsillie.dragonball.item.DragonBall2Item;
 import com.alexbalsillie.dragonball.item.DragonBall1Item;
+import com.alexbalsillie.dragonball.item.CondensedKiItemItem;
 import com.alexbalsillie.dragonball.DragonBallMod;
 
 public class DragonBallModItems {
@@ -65,6 +67,8 @@ public class DragonBallModItems {
 	public static final RegistryObject<Item> GREEN_SCOUTER_HELMET = REGISTRY.register("green_scouter_helmet", () -> new GreenScouterItem.Helmet());
 	public static final RegistryObject<Item> SENSU_BEAN_ITEM = REGISTRY.register("sensu_bean_item", () -> new SensuBeanItemItem());
 	public static final RegistryObject<Item> KORIN_CRATE = block(DragonBallModBlocks.KORIN_CRATE);
+	public static final RegistryObject<Item> KI_CHARGER_BAUBLE = REGISTRY.register("ki_charger_bauble", () -> new KiChargerBaubleItem());
+	public static final RegistryObject<Item> CONDENSED_KI_ITEM = REGISTRY.register("condensed_ki_item", () -> new CondensedKiItemItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

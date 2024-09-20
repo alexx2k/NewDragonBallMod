@@ -42,6 +42,8 @@ public class DragonBallModTabs {
 				tabData.accept(DragonBallModItems.GREEN_SCOUTER_HELMET.get());
 				tabData.accept(DragonBallModItems.SENSU_BEAN_ITEM.get());
 				tabData.accept(DragonBallModBlocks.KORIN_CRATE.get().asItem());
+				tabData.accept(DragonBallModItems.KI_CHARGER_BAUBLE.get());
+				tabData.accept(DragonBallModItems.CONDENSED_KI_ITEM.get());
 			})
 
 					.build());

@@ -2482,6 +2482,115 @@
         ]
       },
       "path": "~/Korin"
+    },
+    {
+      "name": "KiCharger",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_charger",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/ki_charger.json"
+        ]
+      },
+      "path": "~/Baubles"
+    },
+    {
+      "name": "KiChargerBaubleWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_charger_bauble_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/KiChargerBaubleWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Baubles"
+    },
+    {
+      "name": "KiChargerBauble",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_charger_bauble",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dragon_ball/models/item/ki_charger_bauble.json",
+          "src/main/java/com/alexbalsillie/dragonball/item/KiChargerBaubleItem.java"
+        ]
+      },
+      "path": "~/Baubles"
+    },
+    {
+      "name": "CondensedKiItemRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_ki_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/procedures/CondensedKiItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "CondensedKiItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_ki_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/alexbalsillie/dragonball/item/CondensedKiItemItem.java",
+          "src/main/resources/assets/dragon_ball/models/item/condensed_ki_item.json"
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "CondensedKiRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "condensed_ki_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/condensed_ki_recipe.json"
+        ]
+      },
+      "path": "~/Ki"
+    },
+    {
+      "name": "KiRechargerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ki_recharger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dragon_ball/recipes/ki_recharger_recipe.json"
+        ]
+      },
+      "path": "~/Baubles"
     }
   ],
   "variable_elements": [
@@ -2584,7 +2693,6 @@
       "~CUSTOM:NamekianDirt",
       "~CUSTOM:NamekianGrass"
     ],
-    "BIOMES:minecraft:is_overworld": [],
     "BLOCKS:minecraft:logs": [
       "CUSTOM:NamekianLog"
     ]
@@ -2609,7 +2717,9 @@
       "Namekian3",
       "GreenScouter",
       "SensuBeanItem",
-      "KorinCrate"
+      "KorinCrate",
+      "KiChargerBauble",
+      "CondensedKiItem"
     ]
   },
   "language_map": {
@@ -2635,6 +2745,7 @@
       "block.dragon_ball.namekian_fence": "Namekian Wood Fence",
       "gui.dragon_ball.gokus_pouch_gui.label_gokus_pouch": "Goku\u0027s Pouch",
       "item.dragon_ball.namekian_2_spawn_egg": "Namekian Spawn Egg",
+      "curios.identifier.ki_charger": "Ki Charger",
       "block.dragon_ball.korin_crate": "Korin Crate",
       "gui.dragon_ball.move_learner.button_learn_flight": "Learn Flight [20]",
       "advancements.found_one_ball.title": "The Hunt Begins...",
@@ -2644,6 +2755,7 @@
       "entity.dragon_ball.namekian_1": "Namekian",
       "item.dragon_ball.shenron_spawn_egg": "Shenron Spawn Egg",
       "entity.dragon_ball.namekian_2": "Namekian",
+      "item.dragon_ball.condensed_ki_item": "Condensed Ki",
       "item.dragon_ball.raw_ki_energy": "Raw Ki Energy",
       "item.dragon_ball.sensu_bean_item": "Sensu Bean",
       "gui.dragon_ball.shenron_wish_gui.button_i_wish_for_extra_life": "I wish for extra life",
@@ -2675,6 +2787,7 @@
       "block.dragon_ball.namekian_pressure_plate": "Namekian Wood Pressure Plate",
       "gui.dragon_ball.move_learner.button_learn_instant_transmission": "Learn Instant Transmission [20]",
       "block.dragon_ball.dragon_ball_lootchest": "Dragon Ball Lootchest",
+      "item.dragon_ball.ki_charger_bauble": "Ki Charger",
       "advancements.found_all_balls.title": "Dragon Ball Hunter",
       "key.dragon_ball.ki_blast_bind": "Ki Blast Bind",
       "gui.dragon_ball.move_learner.label_learn_moves": "Learn Abilities",
@@ -2762,6 +2875,10 @@
       {
         "name": "Korin",
         "children": []
+      },
+      {
+        "name": "Baubles",
+        "children": []
       }
     ]
   },
@@ -2771,14 +2888,16 @@
     "version": "1.0.0",
     "description": "Adds features from the Dragon Ball universe to minecraft!",
     "author": "alex",
-    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/dragon-ball-mod/",
+    "websiteURL": "https://trello.com/b/VlZ6VIut",
     "license": "Not specified",
     "serverSideOnly": false,
     "modPicture": "dragon_ball_4",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "alex",
     "modElementsPackage": "com.alexbalsillie.dragonball"

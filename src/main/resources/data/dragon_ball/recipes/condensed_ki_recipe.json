@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "dragon_ball:raw_ki_energy"
+    }
+  },
+  "result": {
+    "item": "dragon_ball:condensed_ki_item",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_fv": 66,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "kichargercurioslot.png",
+    "name": "Ki Charger",
+    "amount": 1
+  }
+}

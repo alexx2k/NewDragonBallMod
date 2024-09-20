@@ -6,7 +6,7 @@ license="Not specified"
 modId="dragon_ball"
 version="1.0.0"
 displayName="Dragon Ball"
-displayURL="https://www.curseforge.com/minecraft/mc-mods/dragon-ball-mod/"
+displayURL="https://trello.com/b/VlZ6VIut"
 logoFile="logo.png"
 credits="alex"
 authors="alex"
@@ -23,6 +23,12 @@ description="Adds features from the Dragon Ball universe to minecraft!"
     side="BOTH"
 
 
+[[dependencies.dragon_ball]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration
