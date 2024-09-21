@@ -145,6 +145,7 @@ public class DragonBallModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "dragon_ball_mapvars";
 		public boolean shenronWishGranted = false;
+		public boolean htcGenerated = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -154,11 +155,13 @@ public class DragonBallModVariables {
 
 		public void read(CompoundTag nbt) {
 			shenronWishGranted = nbt.getBoolean("shenronWishGranted");
+			htcGenerated = nbt.getBoolean("htcGenerated");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putBoolean("shenronWishGranted", shenronWishGranted);
+			nbt.putBoolean("htcGenerated", htcGenerated);
 			return nbt;
 		}
 

@@ -28,6 +28,6 @@ public class KiChargerBaubleItem extends Item implements ICurioItem {
 
 	@Override
 	public void curioTick(SlotContext slotContext, ItemStack stack) {
-		KiChargerBaubleWhileBaubleIsEquippedTickProcedure.execute(slotContext.entity().level(), slotContext.entity());
+		KiChargerBaubleWhileBaubleIsEquippedTickProcedure.execute(slotContext.entity());
 	}
 }

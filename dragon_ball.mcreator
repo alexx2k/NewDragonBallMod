@@ -2510,10 +2510,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -2647,6 +2643,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "htcGenerated",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -2690,6 +2692,7 @@
       "~CUSTOM:NamekianStairs"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.QUARTZ_BLOCK#0",
       "~CUSTOM:NamekianDirt",
       "~CUSTOM:NamekianGrass"
     ],

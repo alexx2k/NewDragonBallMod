@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:smooth_quartz",
     "dragon_ball:namekian_dirt",
     "dragon_ball:namekian_grass"
   ]

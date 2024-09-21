@@ -1,25 +1,21 @@
 package com.alexbalsillie.dragonball.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.Entity;
 
 import com.alexbalsillie.dragonball.network.DragonBallModVariables;
-import com.alexbalsillie.dragonball.DragonBallMod;
 
 public class KiChargerBaubleWhileBaubleIsEquippedTickProcedure {
-	public static void execute(LevelAccessor world, Entity entity) {
+	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
 		if ((entity.getCapability(DragonBallModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DragonBallModVariables.PlayerVariables())).playerKi < 100) {
-			DragonBallMod.queueServerWork(20, () -> {
-				{
-					double _setval = (entity.getCapability(DragonBallModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DragonBallModVariables.PlayerVariables())).playerKi + 2;
-					entity.getCapability(DragonBallModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-						capability.playerKi = _setval;
-						capability.syncPlayerVariables(entity);
-					});
-				}
-			});
+			{
+				double _setval = (entity.getCapability(DragonBallModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DragonBallModVariables.PlayerVariables())).playerKi + 0.2;
+				entity.getCapability(DragonBallModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.playerKi = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
 		}
 		if ((entity.getCapability(DragonBallModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DragonBallModVariables.PlayerVariables())).playerKi > 100) {
 			{
